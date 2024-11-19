@@ -1,6 +1,5 @@
 # setting up locally using `sozo` #sozo #dojo #setup
 
-ok
 you need the tooling for dojo see [[dojo_tools_setup]] and the [dojo docs getting started](https://book.dojoengine.org/getting-started)
 
 now you can use `sozo` to scaffold out a project.
