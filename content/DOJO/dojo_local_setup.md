@@ -1,6 +1,6 @@
 # setting up locally using `sozo` #sozo #dojo #setup
 
-
+ok
 you need the tooling for dojo see [[dojo_tools_setup]] and the [dojo docs getting started](https://book.dojoengine.org/getting-started)
 
 now you can use `sozo` to scaffold out a project.
@@ -17,7 +17,7 @@ if you want to amend the `Scarb.toml` to reflect whatever you passed to ```sozo 
 use `sed` for this, run it from the root of the project.
 you may need to fix the command for your OS and that probably means dropping the `''` part which is for BSD's (like Mac).
 
-    find src -type f -exec sed -i '' 's/dojo_starter/foobar/g' {} + 
+    find src -type f -exec sed -i '' 's/dojo_starter/foobar/g' {} +
 
 now you want to clean up under `manifests`. just rm everything under that dir.
 
@@ -75,4 +75,4 @@ mprocs "tail -f <katana_log_path>" "tail -f <torii_log_path>"
 
 ### network calls RPC gotchas
 
-**NOTE** dont use `localhost:5050` because `katana` doesn't listen on that interface so the calls will immediately and we will get a `500` 
+**NOTE** dont use `localhost:5050` because `katana` doesn't listen on that interface so the calls will immediately and we will get a `500`
